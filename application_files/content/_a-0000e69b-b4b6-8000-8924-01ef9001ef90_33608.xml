@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <versionUuid>_a-0000e719-4054-8000-c937-01ef9001ef90_35484</versionUuid>
+    <rule>
+        <name>FHT_cardHeader</name>
+        <uuid>_a-0000e69b-b4b6-8000-8924-01ef9001ef90_33608</uuid>
+        <description></description>
+        <parentUuid>66dd2148-b9e1-4006-b88a-d8c73b5c0c2f</parentUuid>
+        <visibility>
+            <advertise>false</advertise>
+            <hierarchy>true</hierarchy>
+            <indexable>true</indexable>
+            <quota>false</quota>
+            <searchable>true</searchable>
+            <system>false</system>
+            <unlogged>false</unlogged>
+        </visibility>
+        <definition>a!assystem_appian_internal(
+  #"SYSTEM_SYSRULES_headerContentLayout_internal"(
+    header: {
+      #"SYSTEM_SYSRULES_cardLayout"(
+        contents: #"_a-0000e6c6-952d-8000-86a8-01ef9001ef90_13103"(),
+        height: "AUTO",
+        style: "#666666",
+        marginBelow: "NONE",
+        showBorder: false
+      )
+    },
+    headerPosition: "SEMI_FIXED",
+    contents: #"_a-0000e6c6-952d-8000-86a8-01ef9001ef90_13084"()
+  )
+)</definition>
+        <preferredEditor>interface</preferredEditor>
+        <offlineEnabled>false</offlineEnabled>
+    </rule>
+    <roleMap public="true">
+        <role inherit="true" allowForAll="false" name="readers">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="true" allowForAll="false" name="authors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="true" allowForAll="false" name="administrators">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyReaders">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAuthors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAdministrators">
+            <users/>
+            <groups/>
+        </role>
+    </roleMap>
+    <history>
+        <historyInfo versionUuid="_a-0000e69b-b4b6-8000-8924-01ef9001ef90_33619"/>
+        <historyInfo versionUuid="_a-0000e6a1-96e9-8000-8460-05ef9005ef90_6994"/>
+        <historyInfo versionUuid="_a-0000e6ac-04b3-8000-f696-01ef9001ef90_7302"/>
+        <historyInfo versionUuid="_a-0000e6c6-952d-8000-86a8-01ef9001ef90_13128"/>
+        <historyInfo versionUuid="_a-0000e719-4054-8000-c937-01ef9001ef90_35484"/>
+    </history>
+</contentHaul>
