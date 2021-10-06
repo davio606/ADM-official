@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <versionUuid>aaa86d30-9ca2-4a4e-ae66-dcf59864eb0d</versionUuid>
+    <rulesFolder>
+        <name>D Rules &amp; Constants1</name>
+        <uuid>0fb12b3a-1396-4743-a882-83049b721391</uuid>
+        <description>Rules and constants folder for the DY application</description>
+        <parentUuid>SYSTEM_RULES_ROOT</parentUuid>
+        <visibility>
+            <advertise>false</advertise>
+            <hierarchy>true</hierarchy>
+            <indexable>true</indexable>
+            <quota>false</quota>
+            <searchable>true</searchable>
+            <system>false</system>
+            <unlogged>false</unlogged>
+        </visibility>
+    </rulesFolder>
+    <roleMap public="true">
+        <role inherit="false" allowForAll="false" name="readers">
+            <users/>
+            <groups>
+                <groupUuid>d1d1d58f-1320-45a0-9899-6b02cbf84bf2</groupUuid>
+            </groups>
+        </role>
+        <role inherit="false" allowForAll="false" name="authors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="administrators">
+            <users/>
+            <groups>
+                <groupUuid>34b73f99-2fd0-4c68-abb3-03566ac42cfe</groupUuid>
+            </groups>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyReaders">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAuthors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAdministrators">
+            <users/>
+            <groups/>
+        </role>
+    </roleMap>
+    <history>
+        <historyInfo versionUuid="aaa86d30-9ca2-4a4e-ae66-dcf59864eb0d"/>
+    </history>
+</contentHaul>

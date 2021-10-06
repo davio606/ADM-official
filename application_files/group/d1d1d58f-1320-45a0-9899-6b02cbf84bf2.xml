@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<groupHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <versionUuid>d1d1d58f-1320-45a0-9899-6b02cbf84bf2</versionUuid>
+    <group>
+        <name>D Users1</name>
+        <securityMap>SECURITYMAP_TEAM</securityMap>
+        <uuid>d1d1d58f-1320-45a0-9899-6b02cbf84bf2</uuid>
+        <groupTypeUuid>SYSTEM_GROUP_TYPE_CUSTOM</groupTypeUuid>
+        <description>Group that all DY activity is secured to</description>
+        <delegatedCreation>false</delegatedCreation>
+        <memberPolicy>MEMBERPOLICY_CLOSED</memberPolicy>
+        <viewingPolicy>VIEWINGPOLICY_LOW</viewingPolicy>
+        <attributes/>
+    </group>
+    <members>
+        <users/>
+        <groups>
+            <groupUuid>34b73f99-2fd0-4c68-abb3-03566ac42cfe</groupUuid>
+        </groups>
+    </members>
+    <admins>
+        <users/>
+        <groups>
+            <groupUuid>34b73f99-2fd0-4c68-abb3-03566ac42cfe</groupUuid>
+        </groups>
+    </admins>
+    <ruleSet/>
+    <history>
+        <historyInfo versionUuid="d1d1d58f-1320-45a0-9899-6b02cbf84bf2"/>
+    </history>
+</groupHaul>
